@@ -1,0 +1,69 @@
+.choices {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Heading for the game */
+h1 {
+  font-size: 48px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+}
+
+.scoreboard p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.choice-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  margin-bottom: 24px;
+}
+
+.choice-img:hover {
+  transform: scale(1.2);
+}
+
+.game-container p {
+  font-size: 20px;
+  margin: 14px 0;
+}
+
+.result-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.result-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto;
+}
